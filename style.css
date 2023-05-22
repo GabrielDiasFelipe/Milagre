@@ -12,7 +12,8 @@
     color: var(--texto);
 }
 body{
-    background-color: var(--fundo);
+    background: var(--fundo) center center no-repeat;
+    background-size: cover;
 }
 div#conte{
     position: absolute;
@@ -83,6 +84,7 @@ section{
 
     border-radius: 20px;
     text-align: center;
+
 
 }
 #img{
