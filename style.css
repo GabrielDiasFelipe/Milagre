@@ -6,15 +6,12 @@
     --texto:rgb(0, 0, 0);
 }
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: Arial;
     color: var(--texto);
 }
-body{
-    background: var(--fundo) center center no-repeat;
-    background-size: cover;
-}
+
 div#conte{
     position: absolute;
     top:50%; left: 50%;
@@ -77,14 +74,12 @@ section{
 }
 #sec1{
     display: none;
-    margin: auto;
-
-    width:100%;
-    height: 110%;
-
-    border-radius: 20px;
+    margin:0;
+    background: #008C70 url(background.gif) center center no-repeat;
+    background-size: cover;
+    width:100vw;
+    height: 99.2vh;
     text-align: center;
-
 
 }
 #img{
@@ -92,6 +87,7 @@ section{
     width:350px;
     top:50%; left: 50%;
     transform: translate(-50%,-50%);
+    border: 1px solid white;
 
 }
 
